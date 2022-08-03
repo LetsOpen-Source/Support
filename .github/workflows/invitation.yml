@@ -9,9 +9,9 @@ jobs:
       - name: Invite on label
         uses: vj-abigo/invite-on-label@v1.3
         with:
-          organization: Let's Open Source
-          label: invite me to this organization
+          organization: GitHub-Org
+          label: invite me to the organization
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: 'Invitation sent to join the GitHub Organisation. Check your mail, Welcome to the community 🎉'
+          comment: 'Welcome to the Org.'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
