@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Invite on label
-        uses: vj-abigo/invite-on-label@v1.2
+        uses: vj-abigo/invite-on-label@v1.3
         with:
-          organization: AccessibleForAll
-          label: invite me to the organisation
+          organization: Let's Open Source
+          label: invite me to this organization
           repo-token: ${{ secrets.GITHUB_TOKEN }}
-          comment: 'Invitation sent to join the GitHub Organisation. Welcome to the community 🎉'
+          comment: 'Invitation sent to join the GitHub Organisation. Check your mail, Welcome to the community 🎉'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
